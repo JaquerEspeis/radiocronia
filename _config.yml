@@ -1,0 +1,20 @@
+# Site settings
+title: radio comunitaria Radiocronía
+description: radio comunitaria Radiocronía
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Radiocronía
+user_description: Radiocronía es un proyecto de comunicación libre, impulsado por las organizaciones Jaquerespeis, GuanaRed y Código Sur, en Costa Rica...
+user_title: Radiocomunitaria
+email: https://www.instagram.com/guanared/channel/
+twitter_username: https://www.facebook.com/GuanaRedCR/
+github_username:  https://www.youtube.com/channel/UCjxwzYeAj5b3C017R46hluQ
+
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
