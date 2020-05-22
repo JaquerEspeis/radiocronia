@@ -10,6 +10,13 @@
   }
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  }
+
+
 .user-projects {
   margin: 20px auto;
   img {
@@ -66,6 +73,8 @@
     }
   }
 }
+
+
 
 .project-link {
   display: inline-block;
