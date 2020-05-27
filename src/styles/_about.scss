@@ -26,8 +26,12 @@
     font-size: 75px;
   }
 }
-.prog  {
-  max-widht: 500px;
+.prog  { margin: 20px auto;
+  img {
+    max-widht: 500px;
+    height: auto;
+    border-radius: 5px
+}
 }
 .user-details {
   text-align: center;
