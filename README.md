@@ -73,3 +73,6 @@ This theme is free and open source software, distributed under the The MIT Licen
 This theme was partially designed with the inspiration from these fine folks
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+
+The player script to resume transmission was shared by our friends from sutty.nl with the Anti-Fascist MIT License:
+https://0xacab.org/sutty/jekyll/radios-comunitarias-jekyll-theme

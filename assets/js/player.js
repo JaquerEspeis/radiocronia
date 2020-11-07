@@ -1,6 +1,10 @@
 ---
 ---
 
+// Script compartido por l+s comp+s de sutty.nl:
+// https://0xacab.org/sutty/jekyll/radios-comunitarias-jekyll-theme
+// Licencia Anti-Fascist MIT.
+
 const loadEvent = () => {
   try {
     if (Turbolinks) return 'turbolinks:load';
