@@ -1,21 +1,21 @@
 <div id="particles-js">
   <div class="header">
-      <h1>
-          <div>
-              <img alt="Radiocronía" src="{{ "/assets/img/logo radiocronia transparente-01.png" | prepend: site.baseurl }}" />
-          </div>
-          <span class="site-title">{{site.username}}</span>
-        <span class="site-description">{{site.user_title}}</span>
-      </h1>
-        <div>
-      
-       <iframe src="https://streaming.la/public/radiocronia"></iframe>
-      
-    </div>
-      <div class="header-icons">
-        <a aria-label="Facebook" href="https://www.facebook.com/GuanaRedCR/"><i class="icon fa fa-facebook"></i></a>
-        <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/guanared/channel/"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
-        <a aria-label="Youtube" target="_blank" href="https://www.youtube.com/channel/UCjxwzYeAj5b3C017R46hluQ"><i class="icon fa fa-youtube" aria-hidden="true"></i></a>
+    <h1>
+      <div>
+        <img alt="Radiocronía" src="{{ "/assets/img/logo radiocronia transparente-01.png" | prepend: site.baseurl }}" />
       </div>
+      <span class="site-title">{{site.username}}</span>
+      <span class="site-description">{{site.user_title}}</span>
+    </h1>
+    <div>
+      <audio controls preload="none" class="w-100" id="transmission">
+        <source src="https://streaming.la/radio/8030/radio.mp3" />
+      </audio>
+    </div>
+    <div class="header-icons">
+      <a aria-label="Facebook" href="https://www.facebook.com/GuanaRedCR/"><i class="icon fa fa-facebook"></i></a>
+      <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/guanared/channel/"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+      <a aria-label="Youtube" target="_blank" href="https://www.youtube.com/channel/UCjxwzYeAj5b3C017R46hluQ"><i class="icon fa fa-youtube" aria-hidden="true"></i></a>
     </div>
   </div>
+</div>
