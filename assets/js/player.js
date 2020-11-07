@@ -1,6 +1,14 @@
 ---
 ---
 
+const loadEvent = () => {
+  try {
+    if (Turbolinks) return 'turbolinks:load';
+  } catch {
+    return 'DOMContentLoaded'
+  }
+}
+
 // Inicia y gestiona el strea
 const streaming = (element) => {
   // Cambiar el src para que incluya un timestamp, esto engaña a Firefox
